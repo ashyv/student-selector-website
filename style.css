@@ -1,0 +1,175 @@
+body {
+    background-color: #F0FFFF;    
+}
+
+#head {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    color: #3366FF;
+}
+
+#pitch {
+    text-align: center;
+    margin-top: -25px;
+    font-size: 27px;
+    font-weight: 300;
+    color: #0066FF;
+}
+
+button {
+	-moz-box-shadow: 0px 0px 17px 0px #e0f3ff;
+	-webkit-box-shadow: 0px 0px 17px 0px #e0f3ff;
+	box-shadow: 0px 0px 17px 0px #e0f3ff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #9eddff), color-stop(1, #6ea2cf) );
+	background:-moz-linear-gradient( center top, #9eddff 5%, #6ea2cf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9eddff', endColorstr='#6ea2cf');
+	background-color:#9eddff;
+	-webkit-border-top-left-radius:13px;
+	-moz-border-radius-topleft:13px;
+	border-top-left-radius:13px;
+	-webkit-border-top-right-radius:13px;
+	-moz-border-radius-topright:13px;
+	border-top-right-radius:13px;
+	-webkit-border-bottom-right-radius:13px;
+	-moz-border-radius-bottomright:13px;
+	border-bottom-right-radius:13px;
+	-webkit-border-bottom-left-radius:13px;
+	-moz-border-radius-bottomleft:13px;
+	border-bottom-left-radius:13px;
+	text-indent:0px;
+	border:3px solid #3866a3;
+	display:inline-block;
+	color:#103566;
+	font-family:Arial;
+	font-size:17px;
+	font-weight:bold;
+	font-style:normal;
+	height:55px;
+	line-height:47px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:3px 2px 8px #7cacde;
+}
+button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #6ea2cf), color-stop(1, #9eddff) );
+	background:-moz-linear-gradient( center top, #6ea2cf 5%, #9eddff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6ea2cf', endColorstr='#9eddff');
+	background-color:#6ea2cf;
+}
+button:active {
+	position:relative;
+	top:3px;
+}
+
+.main{
+    margin-top:50px;
+    text-align: center;
+}
+
+.helppage{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 20px;
+}
+
+.aboutpage{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+.createpage{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 20px;    
+}
+
+.threebuttons{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.helppagebuttons{
+    margin: 25px;
+}
+
+.initpagebuttons{
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.openpagebuttons{
+    margin: 25px;    
+}
+
+#nextStudentButton{
+    margin-top: 30px;    
+}
+
+#textBox{
+    margin: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+textarea {
+    width: 275px;
+    font-size: .8em;
+    resize: none;
+}
+
+#checkNum{
+    font-size: 16px;    
+}
+
+#displayStudent{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 700;
+}
+
+#displayNumSelections{
+    text-align: center; 
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#openpage{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 20px;    
+}
+
+#menu{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    text-indent: 70px;
+    
+}
+
+#menu2{
+   margin-top: 50px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+#menu3{
+   margin-top: 50px;
+    margin-bottom: 30px;
+    width: 200px;
+}
